@@ -2,7 +2,7 @@
 
 
 # github token
-GithubToken="13ee3cc6bbd7bf30a2f7a8a812eb38363916b5b4"
+GithubToken="YOUR_GITHUB_TOKEN"
 
 # Search for a pod in CocoaPods search engine
 function searchForPod {
