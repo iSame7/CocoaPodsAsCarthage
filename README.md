@@ -14,6 +14,7 @@ it looks like that:
 
 # Why?
 1- The beauty of this script is that it enable you to switch between using a pod as a framework or as source files. 
+
 2- You might be in a situation that your project is a large scale one and you have a lot of inter dependencies and you don't have the possiblity to switch to Carthage and you want to stick to CocoaPods. 
 
 # How this script works:
