@@ -29,11 +29,17 @@ e.g:
 This what happens when you run this command from terminal:
 
 1- Search for pod name in CocoaPods search enging using CocoaPods API. 
+
 2- Parse JSON comming from CocoPods's API, get repo url and fork this repo using Github API.
+
 3- Parse JSON comming from Github's API, get ssh_url and clone this repo. 
+
 4- Create a framework for targets of cloned repo using Carthage. (you can use Xcode to do that feel free to change the script :)) 
+
 5- Create a directory/folder and add the created framwork inside it. 
+
 6- If you call the script with --SourceAndBinary option like:
+
 ```
 ./automator.sh "Pod name" --SourceAndBinary
 ```
@@ -53,6 +59,7 @@ this will happen:
  # Dependencies
  
  1- GithubToken: you need to set your github token in the script before running it. 
+ 
  2- you need to install jq to parse JSON. 
  ```
  brew install jq
