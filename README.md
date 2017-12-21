@@ -55,7 +55,12 @@ this will happen:
  
  7- It Commits and push the changes back to the forked remote repo. 
  
- 
+ <h3 align="center">
+    <img src="./demo.gif"/>
+    <br />
+  </a>
+</h3>
+
  # Dependencies
  
  1- GithubToken: you need to set your github token in the script before running it. 
